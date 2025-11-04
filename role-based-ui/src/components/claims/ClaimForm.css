@@ -1,0 +1,16 @@
+.claim-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.claim-form input, .claim-form select {
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.claim-form button {
+  margin-top: 10px;
+}

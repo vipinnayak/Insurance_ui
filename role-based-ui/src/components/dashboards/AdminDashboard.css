@@ -1,0 +1,40 @@
+.admin-container {
+  padding: 20px;
+}
+
+.admin-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+}
+
+.admin-navbar li {
+  cursor: pointer;
+  padding: 6px 12px;
+  background-color: #1e293b;
+  color: white;
+  border-radius: 4px;
+}
+
+.admin-navbar li:hover {
+  background-color: #334155;
+}
+
+.admin-home {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.admin-home h1 span {
+  color: #ef4444;
+}
+
+.claim-section {
+  margin-top: 20px;
+  background-color: #f1f5f9;
+  padding: 12px;
+  border-radius: 8px;
+}

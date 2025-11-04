@@ -1,0 +1,64 @@
+.dashboard-container {
+  padding: 30px;
+  animation: fadeIn 0.8s ease;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-3px);
+}
+
+.policy-list li, .claim-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.claim-item.approved {
+  background-color: #d1fae5;
+}
+
+.claim-item.rejected {
+  background-color: #fee2e2;
+}
+
+.claim-item.pending {
+  background-color: #fef9c3;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

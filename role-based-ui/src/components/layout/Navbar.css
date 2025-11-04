@@ -1,0 +1,25 @@
+.navbar {
+  padding: 12px 20px;
+  background-color: #1e293b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 12px;
+}
+
+.navbar span {
+  margin-right: 12px;
+}
+
+.navbar button {
+  background-color: #ef4444;
+}
+
+.navbar button:hover {
+  background-color: #dc2626;
+}
